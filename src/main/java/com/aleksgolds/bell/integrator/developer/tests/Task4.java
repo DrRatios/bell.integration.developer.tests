@@ -5,7 +5,6 @@ import java.util.Stack;
 
 public class Task4 {
 
-
     public static void main(String[] args) {
         System.out.println(isBalanced("    "));      // false
         System.out.println(isBalanced(null));        // false

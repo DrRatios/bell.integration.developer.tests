@@ -3,13 +3,14 @@ package com.aleksgolds.bell.integrator.developer.tests;
 import java.util.Random;
 
 public class Task3 {
+
     public static void main(String[] args) {
         int[][] array = new int[9][9];
         Random random = new Random();
         for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
                 array[i][j] = random.nextInt(100);
-                if (i==4 && j==4) {
+                if (i == 4 && j == 4) {
                     array[i][j] = 1;
                 }
                 System.out.printf("%4d", array[i][j]);// числа от 0 до 99
